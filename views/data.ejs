@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="/home">Enter new Data</a>
+    <p>"is_success":true,</p>
+    <p>"user_id":<%=data.fname%>_<%=data.lname%>_<%=d.getDate()%><%=d.getMonth()%><%=d.getFullYear()%></p>
+    <p>"email":<%=data.email%></p>
+    <p>"roll_number":<%=data.rnum%></p>
+    <p>"numbers":[<%for(let number of numbers){%>"<%=number%>",<%}%>]</p>
+    <p>"alphabets":[<%for(let alphabet of alphabets){%>"<%=alphabet%>",<%}%>]</p>
+</body>
+</html>
